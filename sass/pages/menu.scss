@@ -1,0 +1,278 @@
+@media screen and (max-width: 799px) {
+
+    #entete {
+        position: absolute;
+        z-index: 0;
+    }
+
+    #menu-complet {
+        position: relative;
+        z-index: 1;
+        margin-top: 330px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--gray);
+        border-radius: 40px 40px 0px 0px;
+
+        .titre-menu {
+            display: flex;
+            flex-direction: row;
+
+            h1 {
+                font-size: 45px;
+                font-family: 'Shrikhand';
+                padding: 20px 60px 20px 60px;
+            }
+
+            i {
+                margin: auto 0px auto 60px;
+                font-size: 35px;
+            }
+        }
+            h6 {
+                width: 70px;
+                text-transform: uppercase;
+                font-size: 30px;
+                margin-left: 5%;
+                border-bottom:solid 5px var(--green);
+            }
+        }
+
+        .choix {
+            animation: fadein 2s;
+            background-color: white;
+            margin: 30px auto 30px auto;
+            width: 90%;
+            border-radius: 30px;
+
+            @keyframes fadein {
+                from {
+                    opacity:0;
+                    transform: translateY(100px);
+                }
+                to {
+                    opacity:1;
+                    transform: translateY(0px);
+                }
+            }
+
+            .gras {
+                padding: 20px 0px 10px 20px;
+                font-size: 25px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            p {
+                padding-bottom: 20px;
+                padding-left: 20px;
+                font-size: 25px;
+            }
+
+            span {
+                margin-left: 5em;
+            }
+        }
+
+        h7 {
+            width: 60px;
+            text-transform: uppercase;
+            font-size: 30px;
+            margin-left: 5%;
+            border-bottom:solid 5px var(--green);
+        }
+
+        h8 {
+            width: 70px;
+            text-transform: uppercase;
+            font-size: 30px;
+            margin-left: 5%;
+            border-bottom:solid 5px var(--green);
+        }
+    }
+
+    @media only screen and (min-width: 800px) and (max-width: 1280px){
+        
+        #entete {
+            position: absolute;
+            z-index: 0;
+        }
+    
+        #menu-complet {
+            position: relative;
+            z-index: 1;
+            margin-top: 330px;
+            display: flex;
+            flex-direction: column;
+            background-color: var(--gray);
+            border-radius: 40px 40px 0px 0px;
+    
+            .titre-menu {
+                display: flex;
+                flex-direction: row;
+    
+                h1 {
+                    font-size: 45px;
+                    font-family: 'Shrikhand';
+                    padding: 20px 60px 20px 60px;
+                }
+    
+                i {
+                    margin: auto 0px auto 60px;
+                    font-size: 35px;
+                }
+            }
+                h6 {
+                    width: 70px;
+                    text-transform: uppercase;
+                    font-size: 30px;
+                    margin-left: 5%;
+                    border-bottom:solid 5px var(--green);
+                }
+            }
+    
+            .choix {
+                animation: fadein 2s;
+                background-color: white;
+                margin: 30px auto 30px auto;
+                width: 70%;
+                border-radius: 30px;
+    
+                @keyframes fadein {
+                    from {
+                        opacity:0;
+                        transform: translateY(100px);
+                    }
+                    to {
+                        opacity:1;
+                        transform: translateY(0px);
+                    }
+                }
+    
+                .gras {
+                    padding: 20px 0px 10px 20px;
+                    font-size: 25px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+                p {
+                    padding-bottom: 20px;
+                    padding-left: 20px;
+                    font-size: 25px;
+                }
+    
+                span {
+                    margin-left: 5em;
+                }
+            }
+    
+            h7 {
+                width: 60px;
+                text-transform: uppercase;
+                font-size: 30px;
+                margin-left: 5%;
+                border-bottom:solid 5px var(--green);
+            }
+    
+            h8 {
+                width: 70px;
+                text-transform: uppercase;
+                font-size: 30px;
+                margin-left: 5%;
+                border-bottom:solid 5px var(--green);
+            }
+
+    }
+
+        /*        desktop     */
+        @media only screen and (min-width: 1280px) and (max-width: 1920px){
+        #entete {
+            position: absolute;
+            z-index: 0;
+        }
+    
+        #menu-complet {
+            position: relative;
+            z-index: 1;
+            margin-top: 750px;
+            display: flex;
+            flex-direction: column;
+            background-color: var(--gray);
+            border-radius: 40px 40px 0px 0px;
+    
+            .titre-menu {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+    
+                h1 {
+                    font-size: 45px;
+                    font-family: 'Shrikhand';
+                    padding: 20px 60px 20px 40px;
+                }
+    
+                i {
+                    margin: auto 50px auto 60px;
+                    font-size: 35px;
+                }
+            }
+                h6 {
+                    width: 70px;
+                    text-transform: uppercase;
+                    font-size: 30px;
+                    margin: auto;
+                    /* hr */
+                    border-bottom:solid 5px var(--green);
+                }
+            }
+    
+            .choix {
+                animation: fadein 1s;
+                background-color: white;
+                margin: 30px auto 30px auto;
+                width: 40%;
+                border-radius: 30px;
+    
+                @keyframes fadein {
+                    from {
+                        opacity:0;
+                        transform: translateY(100px);
+                    }
+                    to {
+                        opacity:1;
+                        transform: translateY(0px);
+                    }
+                }
+    
+                .gras {
+                    padding: 20px 0px 10px 20px;
+                    font-size: 25px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+                p {
+                    padding-bottom: 20px;
+                    padding-left: 20px;
+                    font-size: 25px;
+                }
+    
+                span {
+                    margin-left: 5em;
+                }
+            }
+    
+            h7 {
+                width: 60px;
+                text-transform: uppercase;
+                font-size: 30px;
+                margin: auto;
+                border-bottom:solid 5px var(--green);
+            }
+    
+            h8 {
+                width: 70px;
+                text-transform: uppercase;
+                font-size: 30px;
+                margin: auto;
+                border-bottom:solid 5px var(--green);
+            }
+        }

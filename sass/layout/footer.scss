@@ -1,0 +1,85 @@
+@media screen and (max-width: 799px) {
+
+    footer {
+        background-color: rgb(41, 41, 41);
+        h5 {
+            color: white;
+            font-family: 'Shrikhand';
+            font-size: 25px;
+            padding: 20px 0px 20px 20px;
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+        
+            a {
+            display: flex;
+            color: white;
+            font-size: 25px;
+            padding-bottom: 20px;
+            }
+            i {
+                width: 35px;
+                margin-right: 15px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+
+    footer {
+        background-color: rgb(41, 41, 41);
+        h5 {
+            color: white;
+            font-family: 'Shrikhand';
+            font-size: 25px;
+            padding: 20px 0px 20px 20px;
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+        
+            a {
+            display: flex;
+            color: white;
+            font-size: 25px;
+            padding-bottom: 20px;
+            }
+            i {
+                width: 35px;
+                margin-right: 15px;
+            }
+        }
+    }
+
+}
+
+        /*       desktop      */
+    footer {
+        background-color: rgb(41, 41, 41);
+        h5 {
+            color: white;
+            font-family: 'Shrikhand';
+            font-size: 25px;
+            padding: 20px 0px 20px 40px;
+            }
+        nav {
+            display: flex;
+            flex-direction: column;
+            margin-left: 40px;
+            a {
+                display: flex;
+                color: white;
+                font-size: 25px;
+                padding-bottom: 20px;
+            }
+            i {
+                width: 35px;
+                margin-right: 15px;
+            }
+        }
+    }
