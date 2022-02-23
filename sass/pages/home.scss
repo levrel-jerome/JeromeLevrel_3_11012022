@@ -1,4 +1,4 @@
-@media screen and (max-width: 799px) {        
+        
             
             /*     explication    */
 
@@ -8,6 +8,7 @@
         span {
             width: 100%;
             font-size: 40px;
+            font-weight: bold;
             text-align: center;
             padding: 20px 0px 20px 0;
             background-color: var(--gray);
@@ -21,8 +22,7 @@
             background-color: var(--gray-600);
             text-align: center;
 
-            h1 {
-                font-family: 'Shrikhand';
+            .gras-entete {
                 font-weight: bold;
                 font-size: 40px;
                 margin: 20px 0 20px 0;
@@ -43,7 +43,7 @@
             h2 {
             font-family: 'Shrikhand';
             width: 100%;
-            font-size: 40px;
+            font-size: 30px;
             padding-left: 20px;
             }
         
@@ -66,14 +66,22 @@
                 margin-left: -15px;
                 height: 30px;
                 width: 30px;
+                color: white;
                 background-color: var(--violet);
                 border-radius: 50%;
                 font-size: 20px;
                 }
             }
+
+            .instruction:hover {
+                background-color: rgb(245, 237, 255);
+                i {
+                    color: var(--violet);
+                }
+            }
         
             i {
-            font-size: 40px;
+            font-size: 25px;
             color: var(--gray-600);
             margin-right: 60px;
             margin-top: auto;
@@ -82,7 +90,7 @@
         
             span {
             margin-top: 25px;
-            font-size: 40px;
+            font-size: 25px;
             margin-top: auto;
             margin-bottom: auto;
             }
@@ -141,6 +149,7 @@
         .explicatif-menu {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         margin: auto;
         width: 100%;
         color: black;
@@ -161,17 +170,17 @@
             }
         
             .icone-explicatif {
-            width: 50%;
+            width: 15%;
         
                 i {
                 font-size: 35px;
-                margin-left: 60%;
                 margin-top: 30px;
                 }
             }
         }
     }
-}
+
+
 
 @media only screen and (min-width: 800px) and (max-width: 1280px){
 
@@ -181,6 +190,7 @@
         span {
             width: 100%;
             font-size: 40px;
+            font-weight: bold;
             text-align: center;
             padding: 20px 0px 20px 0;
             background-color: var(--gray);
@@ -222,7 +232,7 @@
             }
         
             .instruction {
-            width: 50%;
+            width: 70%;
             background-color: var(--gray);
             border-radius: 40px;
             margin-right: auto;
@@ -276,6 +286,7 @@
                 
         h3{
         font-family: 'Shrikhand';
+        text-align: center;
         font-size: 40px; 
         padding-left: 20px;
         padding-top: 80px;
@@ -335,11 +346,10 @@
             }
         
             .icone-explicatif {
-            width: 50%;
+            width: 10%;
         
                 i {
                 font-size: 35px;
-                margin-left: 60%;
                 margin-top: 30px;
                 }
             }
@@ -350,7 +360,7 @@
 
             /*        desktop     */
 
-@media only screen and (min-width: 1280px) and (max-width: 1920px){
+@media only screen and (min-width: 1281px) and (max-width: 1920px){
 
     #entete-home {
         display: flex;
@@ -358,6 +368,7 @@
         span {
             width: 100%;
             font-size: 40px;
+            font-weight: bold;
             text-align: center;
             padding: 20px 0px 20px 0;
             background-color: var(--gray);
@@ -371,8 +382,8 @@
             background-color: var(--gray-600);
             text-align: center;
 
-            h1 {
-                font-family: 'Shrikhand';
+            .gras-entete {
+                text-transform: uppercase;
                 font-weight: bold;
                 font-size: 40px;
                 margin: 20px 0 20px 0;
@@ -400,12 +411,12 @@
             }
         
             .instruction {
-            width: 30%;
+            width: 50%;
             background-color: var(--gray);
             border-radius: 40px;
             display: flex;
             height: 100px;
-            margin-left: 50px;
+            margin: auto;
         
                 .number {
                 display: flex;
@@ -426,13 +437,13 @@
             i {
             font-size: 40px;
             color: var(--gray-600);
-            margin-right: 60px;
+            margin-left: 100px;
+            margin-right: 150px;
             margin-top: auto;
             margin-bottom: auto;
             }
         
             span {
-            margin-top: 25px;
             font-size: 40px;
             margin-top: auto;
             margin-bottom: auto;
@@ -450,6 +461,8 @@
     margin-top: 70px;
     display: grid;
     grid-template-columns:1fr 1fr;
+    grid-template-rows: initial;
+    padding-bottom: 30px;
                 
         h3{
         grid-column: 1 / 3 ;
@@ -512,11 +525,10 @@
             }
         
             .icone-explicatif {
-            width: 50%;
+            width: 10%;
         
                 i {
                 font-size: 35px;
-                margin-left: 60%;
                 margin-top: 30px;
                 }
             }
