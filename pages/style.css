@@ -757,11 +757,11 @@ header img {
   font-size: 25px;
 }
 .choix .content-choix {
-  width: calc(100% - 180px);
+  width: 70%;
   transition: width 0.3s;
 }
 .choix:hover .content-choix {
-  width: 300px;
+  width: calc(70% - 80px);
 }
 .choix .complement {
   overflow: hidden;

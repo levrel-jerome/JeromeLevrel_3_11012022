@@ -71,13 +71,13 @@
   }
 
   .content-choix {
-    width: calc(100% - 180px);
+    width: 70%;
     transition: width 0.3s ;
   }
 
   &:hover {
     .content-choix {
-      width: 300px;
+      width: calc(70% - 80px);
     }
   }
 
