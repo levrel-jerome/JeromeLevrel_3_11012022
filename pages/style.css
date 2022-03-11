@@ -757,7 +757,7 @@ header img {
   font-size: 25px;
 }
 .choix .content-choix {
-  width: 70%;
+  width: 60%;
   transition: width 0.3s;
 }
 .choix:hover .content-choix {
